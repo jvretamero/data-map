@@ -1,0 +1,24 @@
+{
+    "name": "data-map",
+    "version": "0.1.0",
+    "description": "",
+    "main": "lib/index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jvretamero/data-map.git"
+    },
+    "keywords": [],
+    "author": "João Vitor Retamero",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jvretamero/data-map/issues"
+    },
+    "homepage": "https://github.com/jvretamero/data-map#readme",
+    "devDependencies": {
+        "@types/jest": "^25.2.3",
+        "jest": "^26.0.1"
+    }
+}
