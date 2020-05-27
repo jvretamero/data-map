@@ -10,7 +10,11 @@
         "type": "git",
         "url": "git+https://github.com/jvretamero/data-map.git"
     },
-    "keywords": [],
+    "keywords": [
+        "scraping",
+        "data",
+        "map"
+    ],
     "author": "João Vitor Retamero",
     "license": "MIT",
     "bugs": {
