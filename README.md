@@ -1,12 +1,28 @@
 # map-data
 
-> Transform data, the easy way
+Transform data, the easy way
 
-This library is mainly for JSON transformation, but it should work with HTML too.
+## Getting started
 
-## Example
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-Notice that these are just a few exampes, [check here](DOCUMENTATION.md) for complete documentation.
+### Prerequisites
+
+* Node.js v12 or higher
+
+### Installing
+
+The project is not published yet, so you will need to clone and install it using the command below.
+
+```txt
+npm install <folder>
+```
+
+## Running the tests
+
+There is a task called `test`, so a simple `npm run test` should be fine.
+
+## Usage
 
 ### JSON
 
@@ -65,6 +81,24 @@ let config = {
 let newJson = mapData(expression, data, config);
 ```
 
+## Built Using
+
+* [NodeJs](https://nodejs.org/) - Server Environment
+
+## Authors
+
+* [@jvretamero](https://github.com/jvretamero) - Idea & Initial work
+
+See also the list of [contributors](/contributors) who participated in this project.
+
 ## License
 
-[MIT](LICENSE)
+This project is licensed under the `MIT License` - see the [LICENSE.md](/LICENSE) file for details
+
+## Acknowledgements
+
+This project was inspired by:
+
+* [scrape-it](https://github.com/IonicaBizau/scrape-it)
+* [X-Ray](https://github.com/matthewmueller/x-ray)
+* [Jason the Miner](https://github.com/mawrkus/jason-the-miner)
